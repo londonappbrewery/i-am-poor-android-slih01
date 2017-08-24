@@ -26,8 +26,9 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/coal"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:contentDescription="coal"
+        app:srcCompat="@drawable/coal"/>
 
 </RelativeLayout>
